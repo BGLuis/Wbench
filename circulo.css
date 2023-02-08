@@ -1,0 +1,44 @@
+.circulos{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    
+}
+
+.circulos .circulo{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(45.78% 50% at 47.05% 51.99%, rgba(255, 149, 0, 0.14) 0%, rgba(255, 149, 0, 0) 100%);
+    border-radius: 33px;
+}
+
+#home .circulo:nth-child(1){
+    width: 395px;
+    height: 337px;
+    top: -20%;
+    right: -20%;
+    z-index: 1;
+}
+
+#sites .circulo:nth-child(1){
+    background: radial-gradient(45.78% 50% at 50% 50%, rgba(255, 149, 0, 0.14) 0%, rgba(255, 149, 0, 0) 100%);
+    width: 395px;
+    height: 437px;
+    top: 1%;
+    left: -20%;
+    z-index: 1;
+}
+
+#servico .circulo:nth-child(1){
+    background: radial-gradient(45.78% 50% at 47.05% 51.99%, rgba(231, 187, 72, 0.1) 0%, rgba(255, 149, 0, 0) 100%);
+    width: 395px;
+    height: 437px;
+    top: 1%;
+    left: -10%;
+    z-index: 1;
+}
